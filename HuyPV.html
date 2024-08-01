@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/assignment03.css">
+    <script src="./js/Assignment03.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="Logo">Logo</div>
+        <div class="myNav">
+            <a href="index.html">Huy</a>
+            <a href="">Utilities</a>
+            <a href="">Share</a>
+            <a href="">Knowledge</a>
+            <a href="#">HuyPV</a>
+            <a href="">Sign In</a>
+            <a href="">About Us</a>
+        </div>
+    </header>
+    <section>
+        <center>
+            <h1>Register Form</h1>
+            <hr>
+            <form action="index.html" onsubmit="return test();">
+                <table>
+                    <tr>
+                        <td class="header">Full name:</td>
+                        <td>
+                            <input id="txtName" class="btn" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Gender:</td>
+                        <td>
+                            <input type="radio" name="sex" checked>Male
+                            <input type="radio" name="sex">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Date of birth:</td>
+                        <td>
+                            <input id="BD" class="btn" type="date" required>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Address:</td>
+                        <td>
+                            <input id="aDD" class="btn" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Email:</td>
+                        <td>
+                            <input id="email" class="btn" type="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Phone:</td>
+                        <td>
+                            <input id="phone" class="btn" type="tel" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header">Country:</td>
+                        <td>
+                            <select name="" id="country">
+                                <option value="Korea">Korea</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Vietnam" selected>Vietnam</option>
+                                <option value="Laos">Laos</option>
+                                <option value="Cambodia">Cambodia</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;">
+                            <input id="btn" type="submit" value="Submit">
+                            <input id="btn" type="reset" value="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </section>
+    <br>
+    <div align="right"><button><a href="index.html">Go to Huy</a></button></div>
+    <footer>
+        &copy; 2020 By Me. All Rights Reserved
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+#Logo {
+    color: aliceblue;
+    font-family: Verdana;
+    font-size: 33pt;
+    font-weight: bold;
+    text-shadow: 5px 5px 8px #f90;
+    padding: 20px 10px;
+}
+.myNav{
+    background-color: #f90;
+    width: 100%;
+    overflow: auto;
+}
+.myNav a{
+    float: left;
+    text-align: center;
+    width: 14%;
+    color: white;
+    font-size: 15pt;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.myNav a:hover{
+    background-color: yellow;
+    color: aqua;
+}
+hr{
+    width: 27%;
+}
+.btn{
+    width: 500px;
+    height: 30px;
+}
+.header{
+    width: 60px;
+    text-align: right;
+}
+select{
+    width: 500px;
+}
+#btn{
+    padding: 3px 40px
+}
+:required{
+    outline-color: red;
+}
